@@ -87,6 +87,7 @@ export default class CurrencySelector extends Vue {
 
 	.content {
 		border: 1px solid grey;
+		box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
 		padding: 20px 12px 12px 12px;
 		border-radius: 4px;
 		width: 100%;
@@ -163,6 +164,7 @@ export default class CurrencySelector extends Vue {
 	padding: 4px 12px;
 	width: 100%;
 	max-width: calc(33.3% - 8px);
+	font-weight: bold;
 
 	.close-button {
 		position: absolute;
